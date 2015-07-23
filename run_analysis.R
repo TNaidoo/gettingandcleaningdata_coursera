@@ -47,7 +47,7 @@ new file mode 100644
 +  names(subdata) <- sub("-z", "_z", names(subdata))
 +  
 +  #Creating second tidy data with average of each variable for each subject and each activity
-+  tidydata <- melt(subdata, id=c("subject", "activity"), measure.vars=names(data)[3:length(names(data))])
++  tidydata <- melt(subdata, id=c("subject", "activity"), measure.vars=names(subdata)[3:length(names(subdata))])
 +  tidydata <- dcast(tidydata, subject + activity ~ variable, mean)
 +  
 +  #Outputs tidy data to a txt file in the working directory
