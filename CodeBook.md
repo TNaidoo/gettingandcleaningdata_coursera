@@ -1,5 +1,14 @@
 # Codebook for Tidy Data
 
+The features selected for this dataset come from the accelerometer and gyroscope 3-axial (x, y, and z) raw signals.
+
+  - The time domain signals were captured at a constant rate of 50 Hz. 
+  - These were then filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+  - The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+  - The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. 
+  - The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+  - Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals. 
+
   Variable                        | Variable Description  
   ----------                      |--------------------------------------------
   Subject                         | Reference to each of the volunteers  
