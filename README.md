@@ -34,5 +34,5 @@
 	- Labels are allocated to the columns; the latter of which was provided in the features file.
 	- The mean and standard deviation for each variable was extracted into a new dataset. Note: In this case only the mean() and std() results were extracted according to the description of the variables provided in the features_info file.
 	- Column labels were formatted to be more meaningful
-	- A set of tidy data was produced containing the mean of each variable (mean and standard deviation) for each subject and each activity.
+	- A set of tidy data was produced containing the average of each variable (as specified in the Codebook) for each subject and each activity.
 	- The tidy dataset is finally extracted and stored in the working directory.
